@@ -9,11 +9,11 @@ const genres = {
 
 console.log(typeof Author);
 
-const gitler = new Author('Adolf Gitler', 140);
+const gogol = new Author('Gogol', 240);
 const gugo = new Author('Gugo', 320);
 
 const books = [
-    new Book('My Kampf', gitler, genres.drama, 1925),
+    new Book('Nose', gogol, genres.drama, 1925),
     new Book('Notre-Dame de Paris', gugo, genres.detective, 1831)
 ]
 
